@@ -1,0 +1,1 @@
+awk '/\\@/{flag=1;next}/Job\ cpu/{flag=0}flag'

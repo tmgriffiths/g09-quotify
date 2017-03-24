@@ -1,1 +1,1 @@
-awk '/\\@/{flag=1;next}/Job\ cpu/{flag=0}flag'
+awk '/\\@/{flag=1;next} /Job\ cpu/ || /Diagonal\ vibrational/ {flag=0} flag'
